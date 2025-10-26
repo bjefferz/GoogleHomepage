@@ -64,6 +64,18 @@ main img {
   display: flex;
   justify-content: center;
   margin: 3vh;
+  flex-grow: 1;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 2vh;
+}
+
+footer a {
+  margin-right: 7.5vw;
 }
 
 @media screen and (max-width: 975px) {
